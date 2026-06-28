@@ -1,0 +1,12 @@
+{
+  "keywords": [
+    "주간 검색 가시성 개선 전략",
+    "검색 순위 추적 프로그램"
+  ],
+  "targets": [
+    {
+      "name": "내 사이트",
+      "patterns": ["example.com", "https://www.example.com/blog"]
+    }
+  ]
+}
