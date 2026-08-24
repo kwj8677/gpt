@@ -2,7 +2,7 @@
 
 ## Reports
 
-- [THE CERTAINTY ISSUE — 잡힐 것이 확실한 도시 / Pickpocket Deterrence](./reports/pickpocket-deterrence-2026-08-25/) — 한국어·영어·이탈리아어·프랑스어 4개 언어, 경찰 통계·현금사용·범죄억지 연구·CCTV 메타분석·이탈리아 사법개혁을 교차검증한 데이터 기반 매거진
+- [THE CERTAINTY ISSUE — 소매치기가 안 먹히는 도시들 / When Pickpocketing Stops Paying](./reports/pickpocket-deterrence-2026-08-25/) — 서울을 중심으로 일본·싱가포르·이탈리아를 비교한 4개 언어 데이터 매거진. 경찰 통계·현금사용·CCTV·범죄억지 연구·사법제도를 교차검증
 - [누가 누구의 출구가 되는가 — 2026년 8월 비트코인 급등과 묶인 자본의 탈출 실험](./reports/crypto-exit-liquidity-2026-08-22.md) — ETF 신규자금, 숏 강제청산, 과거 매수원가 물량, 행동경제학, 미국 국채·정치·국제금융을 하나의 자금흐름으로 분석한 데이터 기반 경제 칼럼
 - [한국 핵융합 현황 2026-06-24](./reports/korea-fusion-status-2026-06-24.md) — 한국 핵융합 연구·산업 현황 리포트
 
