@@ -1,4 +1,4 @@
-# THE CERTAINTY ISSUE — Pickpocket Deterrence
+# THE CERTAINTY ISSUE — When Pickpocketing Stops Paying
 
 **Why pickpocketing stops paying in high-safety systems — with Seoul as the clearest before/after case, Tokyo and Singapore as comparison systems, and Italy as the counterexample.**
 
