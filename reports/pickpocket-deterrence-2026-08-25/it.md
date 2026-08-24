@@ -1,9 +1,9 @@
-# La città in cui essere presi sembra inevitabile
+# Le città dove il borseggio smette di convenire
 
-## Come Seoul ha trasformato il borseggio in un pessimo affare — e perché l'Italia non ha ancora completato la stessa equazione
+## Cosa fanno i sistemi ad alta sicurezza al calcolo del ladro — con Seoul come caso più evidente
 
-> **La moda cambia la superficie di una città. La sicurezza ne cambia il comportamento.**  
-> Nella Seoul degli anni Novanta, “attento al portafoglio” era un consiglio normale nei quartieri affollati. Oggi lo è molto meno. I borseggiatori non sono diventati più morali. **È cambiato il loro conto economico.**
+> **In alcune città affollate ci si dimentica perfino del portafoglio. In altre, una cerniera aperta diventa un'opportunità economica.**  
+> La differenza non è una presunta superiorità morale nazionale. È la struttura di **profitto, tracciabilità e certezza percepita delle conseguenze**. Seoul offre il caso prima/dopo più leggibile; Tokyo e Singapore sono utili sistemi di confronto, mentre le città turistiche italiane mostrano cosa succede quando la catena resta incompleta.
 
 *Editoriale data-driven · 25 agosto 2026 · Edizione italiana*
 
@@ -87,9 +87,9 @@ La sequenza è rivelatrice:
 
 Non è l'immagine di uno Stato completamente indifferente. È l'immagine di un sistema che **sta correggendo una funzione di incentivi progettata male**.
 
-### La lezione di Seoul
+### Ciò che condividono i sistemi ad alta sicurezza — e ciò che Seoul rende particolarmente visibile
 
-Per far sparire il borseggio non bisogna partire dalla domanda “quanti anni di carcere?”
+Per ridurre il borseggio non bisogna partire dalla domanda “quanti anni di carcere?”
 
 Bisogna chiedere: **conviene ancora?**
 
@@ -135,7 +135,7 @@ Nella Seoul di oggi è il ladro a dover pensare:
 
 La forma più alta di sicurezza urbana non è una città in cui la polizia cattura eroicamente ogni ladro.
 
-È una città in cui il ladro fa i conti — e decide che il lavoro non vale la pena.
+È una città in cui il ladro fa i conti — e decide che il lavoro non vale la pena. Seoul è semplicemente uno dei luoghi in cui questo cambiamento di calcolo è più visibile nell'arco di una sola generazione.
 
 ---
 
