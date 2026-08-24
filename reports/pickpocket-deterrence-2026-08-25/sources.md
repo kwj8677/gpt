@@ -1,4 +1,4 @@
-# Evidence dossier — Pickpocket deterrence: Korea vs. Italy
+# Evidence dossier — Why pickpocketing stops paying in high-safety systems
 
 _Last verified: 2026-08-25 KST_
 
@@ -17,7 +17,8 @@ _Last verified: 2026-08-25 KST_
 - In 2026, Law 54/2026 expanded art. 624-bis to certain deft thefts involving payment instruments, identity documents, digital devices, mobile phones, or sufficiently valuable property.
 
 **Strong inference, not a single-study causal proof**
-- Korea's collapse in pickpocketing is best explained as a **compound incentive shift**: less cash to steal + more traceability + denser surveillance + repeated-offender detection + a high perceived probability of eventual identification.
+- Korea's collapse in recorded pickpocketing is best explained as a **compound incentive shift**: less cash to steal + more traceability + denser surveillance + repeated-offender detection + a high perceived probability of eventual identification.
+- Japan and Singapore are used as **comparison systems**, not as proof of identical pickpocket trends. Their official data support the same mechanism from different angles: granular crime/clearance tracking, rising cashless payments, dense public-camera coverage, rapid suspect identification and prevention partnerships.
 - Italy's persistent tourist-zone problem is not evidence of zero policing. The more defensible diagnosis is that **enforcement effort, victim-procedure friction, repeat-offender economics, and hotspot exposure have not yet combined into the same high-certainty deterrence loop**.
 
 ## Primary / high-authority sources
@@ -73,10 +74,26 @@ _Last verified: 2026-08-25 KST_
 17. Italian Constitutional Court, Judgment 130/2026 — art. 624-bis remains prosecuted ex officio  
     https://www.cortecostituzionale.it/scheda-pronuncia/2026/130
 
+18. Japan National Police Agency — criminal-code offence statistics and clearance data by offence/type  
+    https://www.npa.go.jp/publications/statistics/safetylife/jousei.html
+
+19. Japan National Police Agency — 2025 Police White Paper statistical tables  
+    https://www.npa.go.jp/hakusyo/r07/data.html
+
+20. Japan Ministry of Economy, Trade and Industry — 2025 cashless-payment ratio: **58.0%**  
+    https://www.meti.go.jp/english/press/2026/0331_005.html
+
+21. Singapore Police Force — PolCam network: **90,000+ cameras**, assisting in **7,500+ solved cases**; footage and analytics can support suspect identification/location within hours  
+    https://www.police.gov.sg/media-hub/police-life/2024/12/vigilant-guardians-safer-streets
+
+22. Singapore Police Force — Annual Crime Brief 2025: **20,857 physical-crime cases**, plus prevention partnerships and detection technology  
+    https://www.police.gov.sg/Media-Hub/Police-Life/2026/02/Physical-Crime-Cases-Saw-a-Minor-Uptick-Last-Year
+
 ## Methodological cautions
 
-- Korean police **incident counts** and Italian **victimisation rates** are not directly comparable as a country ranking.
+- Korean police **incident counts**, Italian **victimisation rates**, Japanese offence/clearance tables and Singaporean physical-crime/system metrics use different denominators and definitions. They are **not** combined into a country ranking.
 - CCTV evidence supports a modest average preventive effect, **not** the claim that cameras alone explain Korea's decline.
 - The NBER cash study is U.S. quasi-experimental evidence supporting the “less liquid anonymous loot → less street crime” mechanism; it is not a direct causal estimate for Korea.
 - Historic “40–50 cases per day during department-store sales” is an investigator recollection reported by the press, not a national time series.
-- The article therefore treats Korea as a **mechanism case study**, not as a clean natural experiment.
+- Japan and Singapore are **mechanism comparators**, not claims that their pickpocket rate follows Korea's exact trajectory.
+- The article treats Korea as the most detailed **before/after mechanism case study**, not as a clean natural experiment or a claim of national exceptionalism.
