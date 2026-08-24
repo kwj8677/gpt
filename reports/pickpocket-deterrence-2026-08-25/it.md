@@ -49,6 +49,24 @@ ma:
 
 È questa catena a produrre la sensazione sociale: **“se lo fai, prima o poi ti identificano.”**
 
+### Seoul non è l'unico indizio: Tokyo e Singapore come sistemi di confronto
+
+Una storia costruita solo sulla Corea sarebbe troppo comoda. Il test più serio è verificare se altri sistemi ad alta sicurezza mostrano la stessa meccanica.
+
+**Il Giappone** pubblica attraverso la National Police Agency statistiche dettagliate su reati e casi risolti per tipologia. Non è una società senza crimine: ciò che conta è la continuità istituzionale **evento → registrazione → classificazione → individuazione del responsabile**. Il METI indica inoltre che nel 2025 il rapporto dei pagamenti cashless ha raggiunto il **58,0%**, riducendo ulteriormente il peso relativo del contante anonimo.
+
+**Singapore** rende la logica della tracciabilità ancora più esplicita. La rete PolCam supera **90.000 telecamere** in quartieri residenziali, parcheggi, aree pubbliche e alcune zone commerciali. La Singapore Police Force afferma che PolCam ha contribuito alla soluzione di **oltre 7.500 casi**, aiutando gli agenti a identificare, localizzare e arrestare sospetti anche nel giro di poche ore.
+
+Singapore ha comunque registrato più di 20.000 reati fisici nel 2025: il punto non è “crimine zero”. Il punto è che **l'anonimato tende a degradarsi rapidamente quando un reato entra nel sistema**.
+
+Culture, diritto e stile di polizia sono diversi. Ma per l'autore del reato l'output è simile:
+
+**meno bottino anonimo + più tracce digitali e video + collegamento dei recidivi + percorso più breve dalla denuncia all'identificazione**
+
+Seoul appare così non come un'eccezione nazionale, ma come uno dei casi più chiari di un meccanismo più generale.
+
+---
+
 ### No, l'Italia non sta facendo “niente”
 
 Nel 2025 la Polizia ferroviaria ha effettuato oltre **42.000 pattugliamenti** e **8.526 servizi antiborseggio** in treni e stazioni, controllando più di 4,8 milioni di passeggeri.
