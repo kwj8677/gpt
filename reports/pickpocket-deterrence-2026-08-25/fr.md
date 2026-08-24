@@ -1,9 +1,9 @@
-# La ville où se faire prendre paraît inévitable
+# Les villes où le vol à la tire cesse de payer
 
-## Comment Séoul a transformé le vol à la tire en mauvais business — et pourquoi l'Italie n'a pas encore bouclé la même équation
+## Ce que les systèmes de haute sécurité font au calcul du voleur — avec Séoul comme cas le plus lisible
 
-> **La mode change la surface d'une ville. La sécurité change son comportement.**  
-> Dans le Séoul des années 1990, « surveille ton portefeuille » était un conseil banal dans les quartiers bondés. Aujourd'hui, beaucoup moins. Les pickpockets ne sont pas devenus plus vertueux. **Leur bilan économique a changé.**
+> **Dans certaines villes bondées, on oublie presque son portefeuille. Dans d'autres, une fermeture éclair ouverte devient une opportunité commerciale.**  
+> La différence n'est pas une supériorité morale nationale. C'est la structure du **profit, de la traçabilité et de la certitude perçue des conséquences**. Séoul offre le cas avant/après le plus lisible ; Tokyo et Singapour servent de comparaisons, tandis que les villes touristiques italiennes montrent ce qui arrive quand la boucle reste incomplète.
 
 *Chronique magazine fondée sur les données · 25 août 2026 · Édition française*
 
@@ -49,6 +49,24 @@ mais :
 
 C'est cette boucle qui crée l'intuition sociale : **« si tu fais ça ici, on finira par te retrouver. »**
 
+### Séoul n'est pas le seul indice : Tokyo et Singapour comme systèmes de comparaison
+
+Une histoire centrée uniquement sur la Corée serait trop commode. Le test plus solide consiste à regarder si d'autres systèmes de haute sécurité révèlent le même mécanisme.
+
+**Le Japon** publie via sa National Police Agency des statistiques détaillées sur les infractions et les élucidations par catégorie. Ce n'est pas une société sans crime ; ce qui compte est la continuité **incident → enregistrement → classification → élucidation**. Le ministère japonais de l'Économie (METI) indique aussi que la part des paiements cashless a atteint **58,0 % en 2025**, réduisant encore le poids relatif du cash anonyme.
+
+**Singapour** rend la logique de traçabilité plus explicite encore. Son réseau PolCam dépasse **90 000 caméras** dans les ensembles résidentiels, parkings, quartiers et certaines zones commerciales. La Singapore Police Force affirme que ce réseau a aidé à résoudre **plus de 7 500 affaires**, les images et outils d'analyse permettant d'identifier, localiser et interpeller des suspects parfois en quelques heures.
+
+Singapour a néanmoins enregistré plus de 20 000 crimes physiques en 2025 : il ne s'agit donc pas de « crime zéro ». Le point est que **l'anonymat se dégrade rapidement une fois l'affaire entrée dans le système**.
+
+Les cultures, les lois et les styles policiers diffèrent, mais pour l'auteur potentiel le résultat converge :
+
+**moins de butin anonyme + davantage de traces numériques et vidéo + liaison des récidivistes + chemin plus court du signalement à l'identification**
+
+Séoul apparaît alors non comme une exception nationale, mais comme l'un des exemples les plus visibles d'un mécanisme plus général.
+
+---
+
 ### Non, l'Italie ne « fait rien »
 
 En 2025, la police ferroviaire italienne a déployé plus de **42 000 patrouilles** et réalisé **8 526 opérations antiborseggio** dans les trains et les gares. Plus de 4,8 millions de voyageurs ont été contrôlés.
@@ -87,9 +105,9 @@ La chronologie ressemble à une télémétrie politique :
 
 Ce n'est pas le portrait d'un État totalement indifférent. C'est celui d'un système qui **corrige progressivement une mauvaise fonction d'incitation**.
 
-### Ce que Séoul semble avoir compris plus tôt
+### Ce que partagent les systèmes de haute sécurité — et ce que Séoul rend particulièrement visible
 
-Pour faire disparaître le vol à la tire, la première question n'est pas : « combien d'années de prison ? »
+Pour réduire le vol à la tire, la première question n'est pas : « combien d'années de prison ? »
 
 C'est : **est-ce encore rentable ?**
 
@@ -118,6 +136,8 @@ Mais les mécanismes convergent :
 - la vidéosurveillance est plus efficace dans un **système surveillé et multi-mesures** ;
 - moins de cash anonyme réduit le rendement du vol ;
 - en Corée, vols à la tire et usage du cash se sont effondrés sur la même longue période ;
+- le Japon fournit un cas de comparaison fondé sur des données fines d'infractions/élucidations et une forte progression du cashless ;
+- Singapour fournit un cas de comparaison avec plus de 90 000 caméras publiques et une utilisation documentée de la vidéo pour identifier rapidement les suspects ;
 - l'évolution législative italienne elle-même montre un rééquilibrage vers une réponse plus certaine pour certaines formes modernes de vol avec dextérité.
 
 Des données différentes. La même machine.
@@ -135,7 +155,7 @@ Dans le Séoul d'aujourd'hui, c'est le voleur qui doit se demander :
 
 La forme la plus avancée de sécurité publique n'est pas une ville où la police attrape héroïquement chaque voleur.
 
-C'est une ville où le voleur fait le calcul — et décide que l'affaire est mauvaise.
+C'est une ville où le voleur fait le calcul — et décide que l'affaire est mauvaise. Séoul est simplement l'un des lieux où l'on voit le plus clairement ce calcul changer en une seule génération.
 
 ---
 
