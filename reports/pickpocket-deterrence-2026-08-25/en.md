@@ -47,6 +47,24 @@ The deterrent machine is not “camera → arrest.” It is:
 
 That closed loop is the physical foundation beneath the social intuition: **“You do this here, you eventually get caught.”**
 
+### Seoul is not the only clue: Tokyo and Singapore as comparison systems
+
+A Korea-only story would be too convenient. The stronger test is whether other high-safety systems reveal the same mechanism.
+
+**Japan** publishes detailed offence and clearance statistics by crime type through the National Police Agency. It is not a crime-free society; the relevant feature is the institutional chain from **incident → classification → recorded pattern → clearance**. Japan's Ministry of Economy, Trade and Industry reports that the cashless-payment ratio rose to **58.0% in 2025**, further shrinking the relative role of anonymous physical cash.
+
+**Singapore** makes the traceability model even more explicit. Its Police Camera network now exceeds **90,000 cameras** across housing estates, carparks, neighbourhoods and selected commercial districts. The Singapore Police Force says PolCam has assisted in solving **more than 7,500 crime cases**, with footage and analytical tools helping officers identify, locate and apprehend suspects within hours after reports.
+
+Singapore still recorded more than 20,000 physical-crime cases in 2025, so the point is not “zero crime.” It is that **anonymity often decays quickly once a crime enters the system**.
+
+Different institutions, similar offender-facing output:
+
+**less anonymous loot + more digital and video traceability + repeat-offender linkage + a shorter path from report to identification**
+
+That makes Seoul less of an exceptional national story and more of a particularly visible example of a broader high-safety mechanism.
+
+---
+
 ### Italy is not doing nothing
 
 Italy's railway police deployed more than **42,000 patrols in 2025** and ran **8,526 dedicated anti-pickpocket services** in stations and trains. More than 4.8 million passengers were checked.
