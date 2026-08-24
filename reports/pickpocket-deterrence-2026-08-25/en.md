@@ -1,9 +1,9 @@
-# The City Where Getting Caught Feels Inevitable
+# The Cities Where Pickpocketing Stops Paying
 
-## How Seoul made pickpocketing a bad business — and why Italy has not yet completed the same equation
+## What high-safety systems do to an offender's calculation — with Seoul as the clearest case
 
-> **Fashion changes the surface of a city. Policing changes its behavior.**  
-> In 1990s Seoul, “watch your wallet” belonged to the vocabulary of crowded shopping districts. Today it barely does. Pickpockets did not become more ethical. **Their balance sheet changed.**
+> **Some crowded cities let you forget your wallet is even there. Others turn one open zipper into a business opportunity.**  
+> The difference is not national virtue. It is the structure of **profit, traceability and perceived certainty of consequence**. Seoul offers the clearest before-and-after case; Tokyo and Singapore provide useful comparison systems, while Italy's tourist cities show what happens when the loop remains incomplete.
 
 *Data-driven magazine column · 25 Aug 2026 · English edition*
 
@@ -85,9 +85,9 @@ Read the sequence as policy telemetry:
 
 That is not proof of indifference. It is evidence of a system **re-optimising after discovering an incentive problem**.
 
-### What Seoul appears to have learned earlier
+### What high-safety systems share — and what Seoul makes unusually visible
 
-To kill pickpocketing, do not begin with “How many years in prison?”
+To suppress pickpocketing, do not begin with “How many years in prison?”
 
 Begin with: **Can this still make money?**
 
@@ -116,6 +116,8 @@ But the mechanism-level evidence converges:
 - CCTV performs better as part of a **monitored, multi-intervention system**;
 - less anonymous cash can reduce the returns to street theft;
 - Korean pickpocket incidents and cash use both collapsed over the same broad era;
+- Japan adds a comparison case of granular crime/clearance data and rapidly rising cashless payments;
+- Singapore adds a comparison case of dense public-camera coverage and documented rapid suspect identification;
 - Italy's own legal trajectory shows a move from complaint-based procedural deflation toward stronger treatment of modern deft theft.
 
 Different data sets, same machine.
@@ -133,7 +135,7 @@ In modern Seoul, the offender has to ask first:
 
 The highest form of public safety is not a city where police heroically catch every thief.
 
-It is a city where the thief runs the numbers — and decides the job is stupid.
+It is a city where the thief runs the numbers — and decides the job is stupid. Seoul is simply one of the clearest places to see that calculation change within a single generation.
 
 ---
 
