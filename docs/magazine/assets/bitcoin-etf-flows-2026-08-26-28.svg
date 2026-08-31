@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">미국 현물 비트코인 ETF 일별 순유입, 2026년 8월 26일부터 28일</title>
+  <desc id="desc">Farside Investors 집계로 8월 26일 2억3220만 달러 순유입, 27일 2억4230만 달러 순유입, 28일 2억190만 달러 순유출이다.</desc>
+  <rect width="900" height="540" fill="#fbfaf7"/>
+  <text x="70" y="42" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="24" font-weight="700" fill="#17212b">미국 현물 비트코인 ETF 일별 순유입</text>
+  <text x="70" y="68" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="14" fill="#5a6672">2026-08-26–28 · 단위: US$ million · 순유출은 음수</text>
+  <g stroke="#d8dde3" stroke-width="1">
+    <line x1="100" y1="150" x2="830" y2="150"/>
+    <line x1="100" y1="200" x2="830" y2="200"/>
+    <line x1="100" y1="250" x2="830" y2="250"/>
+    <line x1="100" y1="300" x2="830" y2="300"/>
+    <line x1="100" y1="350" x2="830" y2="350"/>
+    <line x1="100" y1="400" x2="830" y2="400"/>
+  </g>
+  <line x1="100" y1="300" x2="830" y2="300" stroke="#68737d" stroke-width="2"/>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="12" fill="#66717c" text-anchor="end">
+    <text x="90" y="154">+300</text><text x="90" y="204">+200</text><text x="90" y="254">+100</text><text x="90" y="304">0</text><text x="90" y="354">−100</text><text x="90" y="404">−200</text>
+  </g>
+  <rect x="180" y="183.9" width="150" height="116.1" rx="3" fill="#176b87"/>
+  <rect x="420" y="178.9" width="150" height="121.1" rx="3" fill="#176b87"/>
+  <rect x="660" y="300" width="150" height="101.0" rx="3" fill="#c65343"/>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" text-anchor="middle">
+    <text x="255" y="170" font-size="17" font-weight="700" fill="#17212b">+$232.2m</text>
+    <text x="495" y="165" font-size="17" font-weight="700" fill="#17212b">+$242.3m</text>
+    <text x="735" y="426" font-size="17" font-weight="700" fill="#8b3f2a">−$201.9m</text>
+    <text x="255" y="452" font-size="14" fill="#49545f">8월 26일</text>
+    <text x="495" y="452" font-size="14" fill="#49545f">8월 27일</text>
+    <text x="735" y="452" font-size="14" fill="#49545f">8월 28일</text>
+  </g>
+  <text x="70" y="490" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="12" fill="#5a6672">출처: Farside Investors, Bitcoin ETF Flow (US$m), 확인일 2026-08-31.</text>
+  <text x="70" y="512" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="11" fill="#7a858f">세 거래일 합계 +$272.6m. 8월 28일 순유출은 단방향 서사를 약화하지만 분배(distribution)를 단독으로 입증하지 않는다.</text>
+</svg>

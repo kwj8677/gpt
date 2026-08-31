@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">한국 결제 건수 중 현금 비중, 2013–2024</title>
+  <desc id="desc">한국은행 지급수단 이용행태 조사에 인용된 현금 결제 비중은 2013년 41.3퍼센트, 2019년 26.4퍼센트, 2021년 21.6퍼센트, 2024년 15.9퍼센트다.</desc>
+  <rect width="900" height="520" fill="#fbfaf7"/>
+  <text x="70" y="42" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="24" font-weight="700" fill="#17212b">한국 결제 건수 중 현금 비중</text>
+  <text x="70" y="68" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="14" fill="#5a6672">2013–2024 · 단위: 전체 결제 건수의 %</text>
+  <g stroke="#d8dde3" stroke-width="1">
+    <line x1="90" y1="400" x2="830" y2="400"/>
+    <line x1="90" y1="336" x2="830" y2="336"/>
+    <line x1="90" y1="272" x2="830" y2="272"/>
+    <line x1="90" y1="208" x2="830" y2="208"/>
+    <line x1="90" y1="144" x2="830" y2="144"/>
+    <line x1="90" y1="80" x2="830" y2="80"/>
+  </g>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="12" fill="#66717c" text-anchor="end">
+    <text x="80" y="404">0</text>
+    <text x="80" y="340">10</text>
+    <text x="80" y="276">20</text>
+    <text x="80" y="212">30</text>
+    <text x="80" y="148">40</text>
+    <text x="80" y="84">50%</text>
+  </g>
+  <polyline points="100,135.7 503.6,231.0 638.2,261.8 820,298.2" fill="none" stroke="#176b87" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#176b87" stroke="#fbfaf7" stroke-width="3">
+    <circle cx="100" cy="135.7" r="7"/>
+    <circle cx="503.6" cy="231.0" r="7"/>
+    <circle cx="638.2" cy="261.8" r="7"/>
+    <circle cx="820" cy="298.2" r="7"/>
+  </g>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="14" fill="#17212b" text-anchor="middle">
+    <text x="100" y="118">41.3%</text>
+    <text x="503.6" y="213">26.4%</text>
+    <text x="638.2" y="244">21.6%</text>
+    <text x="820" y="281">15.9%</text>
+  </g>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="13" fill="#49545f" text-anchor="middle">
+    <text x="100" y="425">2013</text>
+    <text x="503.6" y="425">2019</text>
+    <text x="638.2" y="425">2021</text>
+    <text x="820" y="425">2024</text>
+  </g>
+  <text x="70" y="468" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="12" fill="#5a6672">출처: 한국은행 지급수단 이용행태 조사(원문 evidence dossier에 정리), 연합뉴스 2025-05-14.</text>
+  <text x="70" y="488" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="11" fill="#7a858f">관측연도가 불규칙하므로 선은 추세를 돕는 연결선이며 연도 사이 값을 뜻하지 않는다. 원자료 최종 확인: 2026-08-25.</text>
+</svg>

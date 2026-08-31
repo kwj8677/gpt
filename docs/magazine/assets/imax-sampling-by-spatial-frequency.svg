@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">15/70 이미지 폭 가정에서 공간주파수별 최소 수평 샘플 수</title>
+  <desc id="desc">이미지 폭 70.41밀리미터와 나이퀴스트 관계 N은 2 곱하기 f 곱하기 W를 사용한 결정론적 계산이다. 50 line pairs per millimeter는 약 7.0K, 100은 14.1K, 130은 18.3K 샘플에 대응한다.</desc>
+  <rect width="900" height="540" fill="#fbfaf7"/>
+  <text x="70" y="42" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="24" font-weight="700" fill="#17212b">공간주파수를 샘플링하려면 몇 K가 필요한가</text>
+  <text x="70" y="68" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="14" fill="#5a6672">가정: 이미지 폭 W = 70.41 mm · N = 2fW · 수평 샘플 수</text>
+  <g stroke="#d8dde3" stroke-width="1">
+    <line x1="100" y1="410" x2="830" y2="410"/>
+    <line x1="100" y1="330" x2="830" y2="330"/>
+    <line x1="100" y1="250" x2="830" y2="250"/>
+    <line x1="100" y1="170" x2="830" y2="170"/>
+    <line x1="100" y1="90" x2="830" y2="90"/>
+  </g>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="12" fill="#66717c" text-anchor="end">
+    <text x="90" y="414">0K</text>
+    <text x="90" y="334">5K</text>
+    <text x="90" y="254">10K</text>
+    <text x="90" y="174">15K</text>
+    <text x="90" y="94">20K</text>
+  </g>
+  <polyline points="100,387.5 160.8,364.9 221.7,342.4 282.5,319.9 343.3,297.3 404.2,274.8 465,252.3 525.8,229.7 647.5,184.7 830,117.1" fill="none" stroke="#5a4aa8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#5a4aa8" stroke="#fbfaf7" stroke-width="2">
+    <circle cx="100" cy="387.5" r="5"/><circle cx="160.8" cy="364.9" r="5"/><circle cx="221.7" cy="342.4" r="5"/><circle cx="282.5" cy="319.9" r="5"/><circle cx="343.3" cy="297.3" r="5"/><circle cx="404.2" cy="274.8" r="5"/><circle cx="465" cy="252.3" r="5"/><circle cx="525.8" cy="229.7" r="5"/><circle cx="647.5" cy="184.7" r="5"/><circle cx="830" cy="117.1" r="5"/>
+  </g>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="13" fill="#49545f" text-anchor="middle">
+    <text x="100" y="434">10</text><text x="221.7" y="434">30</text><text x="343.3" y="434">50</text><text x="465" y="434">70</text><text x="647.5" y="434">100</text><text x="830" y="434">130</text>
+  </g>
+  <text x="465" y="458" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="13" fill="#49545f" text-anchor="middle">공간주파수 f (lp/mm)</text>
+  <g font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="13" font-weight="700" fill="#17212b">
+    <text x="352" y="286">50 lp/mm → 7.04K</text>
+    <text x="656" y="172">100 lp/mm → 14.08K</text>
+    <text x="677" y="105">130 lp/mm → 18.31K</text>
+  </g>
+  <text x="70" y="496" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="12" fill="#5a6672">출처: 원문 부록 A의 결정론적 계산. 산식 N = 2fW, W = 70.41 mm. 작성일: 2026-08-31.</text>
+  <text x="70" y="516" font-family="'Noto Sans KR', 'Pretendard', Arial, sans-serif" font-size="11" fill="#7a858f">주의: 나이퀴스트 최소 샘플 수는 해당 주파수에서 렌즈·필름의 MTF나 SNR이 충분하다는 뜻이 아니다.</text>
+</svg>
