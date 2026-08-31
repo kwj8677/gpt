@@ -22,6 +22,13 @@ for p in htmls+[site/'index.html',site/'style-guide.html']:
         if attr.startswith(('http:','https:','#','mailto:')): continue
         target=(p.parent/attr).resolve()
         if not target.exists(): errors.append(f'{p}: broken local ref {attr}')
+index=(site/'index.html').read_text(encoding='utf-8')
+if index.count('class="feed-article"') != len(issues): errors.append('index: continuous feed does not contain all issues')
+if 'class="issue-row"' in index: errors.append('index: old click-through issue cards remain')
+if index.find('id="column-07"') > index.find('id="column-01"'): errors.append('index: newest column is not first')
+for p in issues:
+    title=p.read_text(encoding='utf-8').splitlines()[0].removeprefix('# ').strip()
+    if title not in index: errors.append(f'index: missing full-feed title {title}')
 css=(site/'style.css').read_text(encoding='utf-8')
 for needle in ['Noto Serif KR','Noto Sans KR','word-break: keep-all','font-variant-numeric: tabular-nums','@media print','@media (max-width: 480px)']:
     if needle not in css: errors.append(f'CSS missing {needle}')

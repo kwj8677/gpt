@@ -132,17 +132,25 @@ td:nth-child(n+2), th:nth-child(n+2) { font-variant-numeric: tabular-nums; }
 .issue-nav a { padding: 1.2rem 0; font: .76rem/1.5 var(--sans); text-decoration: none; }
 .issue-nav a:last-child { text-align: right; }
 
-.index-hero { padding: clamp(5rem, 12vw, 9rem) 0 4.5rem; border-bottom: 1px solid var(--rule-dark); }
-.index-hero h1 { margin: 0; max-width: 12ch; font: 700 clamp(3rem, 8vw, 6rem)/1.03 var(--serif); letter-spacing: -.07em; }
-.index-hero p { max-width: 44rem; margin: 2rem 0 0; color: #48443e; font-size: 1.12rem; }
+.index-hero { padding: clamp(4.5rem, 10vw, 7.5rem) 0 4rem; border-bottom: 1px solid var(--rule-dark); }
+.index-hero h1 { margin: 0; max-width: 13ch; font: 700 clamp(3rem, 8vw, 5.6rem)/1.04 var(--serif); letter-spacing: -.065em; }
+.index-hero p { max-width: 43rem; margin: 1.8rem 0 0; color: #48443e; font-size: 1.08rem; }
 .index-label { font: 600 .72rem/1 var(--sans); letter-spacing: .15em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem; }
-.issue-list { padding: 2rem 0 7rem; }
-.issue-row { display: grid; grid-template-columns: 4.5rem 1fr 13rem; gap: 1.3rem; padding: 2.1rem 0 2.25rem; border-bottom: 1px solid var(--rule); align-items: baseline; }
-.issue-no { font: 500 1.9rem/1 var(--sans); color: var(--faint); letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
-.issue-row h2 { margin: 0; font: 600 clamp(1.45rem, 3vw, 2.05rem)/1.35 var(--serif); letter-spacing: -.035em; }
-.issue-row h2 a { text-decoration: none; }
-.issue-row .desc { margin: .6rem 0 0; color: var(--muted); font-size: .9rem; line-height: 1.75; }
-.issue-type { text-align: right; color: var(--muted); font: 500 .7rem/1.6 var(--sans); }
+.feed { padding: 0 0 8rem; }
+.feed-article { padding: clamp(5.5rem, 10vw, 8.5rem) 0 clamp(6.5rem, 12vw, 10rem); border-bottom: 1px solid var(--rule-dark); }
+.feed-article:last-child { border-bottom: 0; }
+.feed-header { max-width: 58rem; margin-bottom: 3.4rem; }
+.feed-header .kicker { margin-bottom: 1.2rem; }
+.feed-title { max-width: 17ch; margin: 0; font: 700 clamp(2.55rem, 6vw, 4.2rem)/1.15 var(--serif); letter-spacing: -.055em; text-wrap: balance; }
+.feed-title a { text-decoration: none; }
+.feed-deck { max-width: 49rem; margin: 1.45rem 0 0; color: #3e3b36; font-size: 1.12rem; line-height: 1.78; }
+.feed-meta { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: .7rem 1.2rem; color: var(--muted); font: 500 .74rem/1.5 var(--sans); font-variant-numeric: tabular-nums; }
+.feed-meta span + span::before { content: '·'; margin-right: 1.2rem; color: var(--faint); }
+.feed-grid { display: grid; grid-template-columns: minmax(0, var(--measure)) minmax(180px, 1fr); gap: clamp(3rem, 8vw, 7.5rem); align-items: start; }
+.feed-note { position: sticky; top: 2rem; color: var(--muted); font: .72rem/1.72 var(--sans); border-top: 1px solid var(--rule-dark); padding-top: .9rem; }
+.feed-note .folio { display: block; margin-bottom: 1.1rem; color: var(--faint); font-size: 1.7rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.feed-permalink { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule); font: 600 .72rem/1.5 var(--sans); letter-spacing: .04em; text-transform: uppercase; }
+.feed-permalink a { text-decoration: none; }
 
 .style-guide { max-width: 54rem; padding: 5rem 0 8rem; }
 .style-guide h1 { font-size: var(--step-4); line-height: 1.2; letter-spacing: -.045em; }
@@ -165,9 +173,11 @@ td:nth-child(n+2), th:nth-child(n+2) { font-variant-numeric: tabular-nums; }
   .margin-note { position: static; order: -1; margin-bottom: 2.7rem; padding: .9rem 0; display: grid; grid-template-columns: 4rem 1fr; gap: .9rem; }
   .margin-note .folio { margin: .1rem 0 0; }
   .pullquote { margin-left: 0; margin-right: 0; }
-  .issue-row { grid-template-columns: 3.2rem 1fr; gap: .75rem 1rem; }
-  .issue-type { grid-column: 2; text-align: left; }
-  .index-hero h1 { max-width: 10ch; }
+  .feed-grid { grid-template-columns: 1fr; gap: 0; }
+  .feed-note { position: static; order: -1; margin-bottom: 2.5rem; display: grid; grid-template-columns: 4rem 1fr; gap: .9rem; }
+  .feed-note .folio { margin: .1rem 0 0; }
+  .feed-title { max-width: 15ch; }
+  .index-hero h1 { max-width: 11ch; }
   .site-footer { display: block; }
   .site-footer > * + * { margin-top: .6rem; }
 }
@@ -186,11 +196,13 @@ td:nth-child(n+2), th:nth-child(n+2) { font-variant-numeric: tabular-nums; }
   @page { size: A4; margin: 18mm 18mm 20mm 18mm; }
   html, body { background: white; }
   body { font-size: 10.5pt; line-height: 1.75; }
-  .masthead, .issue-nav, .site-footer, .margin-note { display: none !important; }
+  .masthead, .issue-nav, .site-footer, .margin-note, .feed-note { display: none !important; }
   .page { width: auto; max-width: none; margin: 0; }
   .article-header { padding: 0 0 12mm; }
   h1.article-title { font-size: 28pt; max-width: 15ch; }
-  .article-grid { display: block; padding: 12mm 0 0; }
+  .article-grid, .feed-grid { display: block; padding: 12mm 0 0; }
+  .feed-article { break-before: page; padding: 0; border: 0; }
+  .feed-article:first-child { break-before: auto; }
   .article-body { max-width: none; }
   .article-body h2, .article-body h3 { break-after: avoid; }
   p, li, blockquote, figure, table { break-inside: avoid; }
@@ -351,32 +363,29 @@ def shell(title: str, issue: str, category: str, evidence_type: str, body: str, 
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)} — Magazine Editions</title><meta name="description" content="{html.escape(deck[:155])}">
 <link rel="stylesheet" href="style.css"></head><body>
-<header class="masthead"><a href="index.html">MAGAZINE EDITIONS</a><span class="edition">Independent research · edited for reading</span><a href="style-guide.html">TYPE / STYLE</a></header>
+<header class="masthead"><a href="index.html">MAGAZINE COLUMN</a><span class="edition">Ongoing publication · 2026</span><a href="style-guide.html">TYPE / STYLE</a></header>
 <main class="page">
-<header class="article-header"><div class="kicker">ISSUE {issue} · {html.escape(category)}</div><h1 class="article-title">{html.escape(title)}</h1><p class="deck">{html.escape(deck)}</p><div class="article-meta"><span>{html.escape(evidence_type)}</span><span>2026.08.31 edition</span><span>Facts · inference · hypothesis separated</span></div></header>
+<header class="article-header"><div class="kicker">COLUMN {issue}</div><h1 class="article-title">{html.escape(title)}</h1><p class="deck">{html.escape(deck)}</p><div class="article-meta"><span>{html.escape(evidence_type)}</span><span>2026.08.31</span><span>Facts · inference · hypothesis separated</span></div></header>
 <div class="article-grid"><article class="article-body">{body}{''.join(nav)}</article>
 <aside class="margin-note"><span class="folio">{issue}</span><div><strong>읽는 법</strong>이 판본은 원 연구를 덮어쓰지 않는다. 사실, 해석, 실무 가설의 강도를 구분하고 반대가설과 반증 조건을 함께 둔다.</div></aside></div>
 </main><footer class="page site-footer"><span>Magazine Editions · Source-preserving editorial series</span><span><a href="https://github.com/kwj8677/gpt/tree/main/magazine">Source & notes ↗</a></span></footer></body></html>'''
 
 
-def build_index() -> str:
-    rows = []
-    descs = {
-        "01": "소매치기를 도덕극이 아니라 전리품 가치·추적성·검거 확실성·절차 마찰이 만드는 작은 사업으로 다시 본다.",
-        "02": "장기 대화에서 기억보다 더 조용하게 망가지는 것, 즉 최상위 목적의 표류를 어떻게 측정할지 묻는다.",
-        "03": "‘필름은 18K’ 같은 숫자 싸움을 벗어나 MTF·SNR·시야각·상영 체인과 인간 지각으로 문제를 다시 세운다.",
-        "04": "가격 상승만 보지 않고 새 돈, 강제매수, 기존 보유자의 매도 의사가 만나는 흡수 능력을 추적한다.",
-        "05": "1억 도 기록 다음에 남는 소재·삼중수소·정비·가동률·경제성이라는 발전소의 문제를 본다.",
-        "06": "훈민정음의 권위가 아니라 조합적 소리 표기의 아이디어를 빌려 음성 AI용 인간 친화 제어층을 시험한다.",
-        "07": "커트 유파와 도구의 정체성보다 길이·무게·중력·비가역성·재현성을 먼저 보는 실무 디자인 에세이.",
-    }
-    for no, fn, title, cat, typ in ISSUES:
+def build_index(parsed: list[tuple]) -> str:
+    articles = []
+    for no, fn, title, category, typ, body, deck in reversed(parsed):
         page = fn.replace('.ko.md', '.html')
-        rows.append(f'''<section class="issue-row"><div class="issue-no">{no}</div><div><h2><a href="{page}">{html.escape(title)}</a></h2><p class="desc">{html.escape(descs[no])}</p></div><div class="issue-type">{html.escape(cat)}<br>{html.escape(typ)}</div></section>''')
-    return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Magazine Editions</title><meta name="description" content="원 연구는 보존하고, 과장과 취향을 걷어낸 한국어 매거진 판본."><link rel="stylesheet" href="style.css"></head><body>
-<header class="masthead"><a href="index.html">MAGAZINE EDITIONS</a><span class="edition">Issue 01—07 · 2026</span><a href="style-guide.html">TYPE / STYLE</a></header>
-<main class="page"><section class="index-hero"><div class="index-label">Research, edited</div><h1>생각을<br>지면으로.</h1><p>원 연구와 작업 노트는 그대로 남긴다. 이곳에서는 그중 읽을 가치가 있는 주장만 골라, 자기확신과 국뽕과 취향의 과잉을 덜고 수치·반대가설·반증 조건을 함께 편집한다.</p></section><div class="issue-list">{''.join(rows)}</div></main>
-<footer class="page site-footer"><span>Facts / inference / opinion / hypothesis are deliberately separated.</span><span><a href="https://github.com/kwj8677/gpt/tree/main/magazine">GitHub source ↗</a></span></footer></body></html>'''
+        # The deck already repeats the first normal paragraph; remove that paragraph
+        # from the continuous feed so the opening is not duplicated.
+        feed_body = re.sub(r"<p>.*?</p>", "", body, count=1, flags=re.S)
+        articles.append(f'''<section class="feed-article" id="column-{no}">
+<header class="feed-header"><div class="kicker">COLUMN {no} · 2026.08.31</div><h2 class="feed-title">{html.escape(title)}</h2><p class="feed-deck">{html.escape(deck)}</p><div class="feed-meta"><span>{html.escape(typ)}</span><span>Facts · inference · hypothesis separated</span></div></header>
+<div class="feed-grid"><article class="article-body">{feed_body}<div class="feed-permalink"><a href="{page}">Permalink · 이 글만 보기 ↗</a></div></article><aside class="feed-note"><span class="folio">{no}</span><div>원 연구와 메모는 별도 보존한다. 이 지면에서는 근거의 강도, 반대가설, 반증 조건을 함께 편집한다.</div></aside></div>
+</section>''')
+    return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Magazine Column</title><meta name="description" content="정기적으로 이어지는 한국어 독립 매거진 칼럼."><link rel="stylesheet" href="style.css"></head><body>
+<header class="masthead"><a href="index.html">MAGAZINE COLUMN</a><span class="edition">Ongoing publication · newest first</span><a href="style-guide.html">TYPE / STYLE</a></header>
+<main class="page"><section class="index-hero"><div class="index-label">Ongoing column</div><h1>칼럼은<br>아래로 쌓인다.</h1><p>새 글이 가장 위에 놓이고, 이전 글은 그 아래로 이어진다. 지금은 주제를 억지로 분류하지 않는다. 수치가 있는 주장은 표와 그래프로, 판단은 반대가설과 함께 기록한다.</p></section><div class="feed">{''.join(articles)}</div></main>
+<footer class="page site-footer"><span>새 글은 위에 추가되고, 분류는 충분히 쌓인 뒤 실제 패턴을 보고 만든다.</span><span><a href="https://github.com/kwj8677/gpt/tree/main/magazine">Source & notes ↗</a></span></footer></body></html>'''
 
 STYLE_GUIDE = '''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Typography & Editorial Style — Magazine Editions</title><link rel="stylesheet" href="style.css"></head><body>
 <header class="masthead"><a href="index.html">MAGAZINE EDITIONS</a><span class="edition">Editorial system</span><a href="style-guide.html">TYPE / STYLE</a></header><main class="page style-guide">
@@ -385,7 +394,7 @@ STYLE_GUIDE = '''<!doctype html><html lang="ko"><head><meta charset="utf-8"><met
 <h2>위계</h2><p>H1은 2.65–3.65rem의 제한된 스케일, H2는 본문 리듬을 끊는 얇은 룰과 함께 사용한다. 한국어 제목에는 과도한 영문식 자간 벌림 대신 약한 음수 자간과 균형 줄바꿈을 쓴다. 본문은 <code>word-break: keep-all</code>과 palt/kern을 적용한다.</p>
 <h2>표와 그래프</h2><p>표는 카드가 아니라 편집표다. 상단 2px 룰, 얇은 행 구분선, 명시적 단위, tabular numerals를 사용한다. 그래프는 측정값 또는 명시된 산식만 그린다. 추정값을 그려야 할 경우 ‘추정’임을 축·캡션에 표시하고, 단지 시각적으로 풍부해 보이기 위해 그래프를 만들지 않는다.</p>
 <h2>색과 종이</h2><p><span class="swatch" style="background:#f4f1e8"></span>Paper #F4F1E8 &nbsp; <span class="swatch" style="background:#1a1916"></span>Ink #1A1916 &nbsp; <span class="swatch" style="background:#304e5c"></span>Accent #304E5C. 인쇄물의 미색 종이와 먹색 대비를 참고하되 장식적 그라디언트나 유리 효과는 쓰지 않는다.</p>
-<h2>편집 원칙</h2><ol><li>원 연구를 보존하고 매거진 판은 별도 파일로 둔다.</li><li>사실과 추론의 문장 강도를 다르게 쓴다.</li><li>저자 정의 용어는 표준 학술용어처럼 포장하지 않는다.</li><li>가장 강한 반대가설과 ‘무엇이 결론을 바꿀지’를 싣는다.</li><li>국가·브랜드·개인의 취향을 메커니즘의 증거로 사용하지 않는다.</li></ol>
+<h2>편집 원칙</h2><ol><li>원 연구를 보존하고 매거진 판은 별도 파일로 둔다.</li><li>사실과 추론의 문장 강도를 다르게 쓴다.</li><li>저자 정의 용어는 표준 학술용어처럼 포장하지 않는다.</li><li>가장 강한 반대가설과 ‘무엇이 결론을 바꿀지’를 싣는다.</li><li>국가·브랜드·개인의 취향을 메커니즘의 증거로 사용하지 않는다.</li></ol><h2>발행 구조</h2><p>메인은 최신 칼럼부터 본문 전체가 연속으로 이어지는 단일 지면이다. 개별 HTML은 공유·인용용 permalink로만 유지한다. 카테고리는 미리 정하지 않고 글이 충분히 쌓인 뒤 실제 주제 패턴을 관찰해 만든다.</p>
 <h2>모바일과 인쇄</h2><p>820px 이하에서는 사이드노트를 본문 위로 이동하고, 480px 이하 표는 가로 스크롤을 허용한다. A4 인쇄 CSS에서는 내비게이션을 제거하고 heading·figure의 페이지 분리를 억제한다. 웹 폰트가 실패해도 한국어 시스템 명조/고딕으로 위계가 유지된다.</p>
 </main><footer class="page site-footer"><span>Magazine Editions · typography guide</span><span><a href="index.html">← Index</a></span></footer></body></html>'''
 
@@ -417,7 +426,7 @@ def main() -> None:
         next_link = parsed[idx+1][1].replace('.ko.md', '.html') if idx + 1 < len(parsed) else None
         out_name = fn.replace('.ko.md', '.html')
         (OUT / out_name).write_text(shell(title, no, category, typ, body, deck, prev_link, next_link), encoding="utf-8")
-    (OUT / "index.html").write_text(build_index(), encoding="utf-8")
+    (OUT / "index.html").write_text(build_index(parsed), encoding="utf-8")
     (OUT / "style-guide.html").write_text(STYLE_GUIDE, encoding="utf-8")
     root_index = ROOT / "docs" / "index.html"
     root_index.write_text('''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=magazine/"><title>Magazine Editions</title></head><body><p><a href="magazine/">Magazine Editions</a></p></body></html>''', encoding="utf-8")
