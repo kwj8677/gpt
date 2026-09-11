@@ -1,5 +1,13 @@
 # Relational–Event Packaging across Northern Eurasia and the Indigenous Americas
 
+**Working paper · REPS hypothesis**
+
+**Abstract.** This project compares recurring relational and event-packaging patterns across selected languages of Northern Eurasia and the Indigenous Americas. It treats the proposed REPS model as a falsifiable typological hypothesis rather than as proof of a single language family, and separates structural comparison from claims about genealogy.
+
+**Keywords:** linguistic typology, relational encoding, event packaging, Koreanic, Japonic, Mongolic, Turkic, Tungusic, Indigenous American languages, Northern Eurasia, REPS
+
+**Canonical URL:** https://kwj8677.github.io/gpt/research/reps/
+
 한국어·일본어·몽골어·튀르키예어·핀란드어·헝가리어와 북·남미 원주민 언어 표본에서 반복되는 형태통사적 패턴을 비교한 가설 중심의 working paper입니다.
 
 ## 핵심 주장

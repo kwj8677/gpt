@@ -1,4 +1,9 @@
-# gpt
+# Independent Research Archive
+
+Independent research, working papers, and evidence-driven reports on **AI, linguistics, Korean language and culture, energy, economics, and technology**.
+
+- Research hub: https://kwj8677.github.io/gpt/
+- Featured working paper: [Relational–Event Packaging across Northern Eurasia and the Indigenous Americas](./papers/relational-event-packaging/)
 
 ## Reports
 

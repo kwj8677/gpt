@@ -429,7 +429,10 @@ def main() -> None:
     (OUT / "index.html").write_text(build_index(parsed), encoding="utf-8")
     (OUT / "style-guide.html").write_text(STYLE_GUIDE, encoding="utf-8")
     root_index = ROOT / "docs" / "index.html"
-    root_index.write_text('''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=magazine/"><title>Magazine Editions</title></head><body><p><a href="magazine/">Magazine Editions</a></p></body></html>''', encoding="utf-8")
+    # Keep the research-hub landing page intact. Only create the old magazine redirect
+    # as a fallback when docs/index.html is genuinely absent.
+    if not root_index.exists():
+        root_index.write_text('''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=magazine/"><title>Magazine Editions</title></head><body><p><a href="magazine/">Magazine Editions</a></p></body></html>''', encoding="utf-8")
     print(f"built {len(parsed)} issues in {OUT}")
 
 if __name__ == "__main__":
