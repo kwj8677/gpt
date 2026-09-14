@@ -1,0 +1,27 @@
+name: Cloud Hand prototype
+on:
+  push:
+    branches: [cloud-hand-prototype-20260914]
+    paths: ['projects/cloud-hand/**', '.github/workflows/cloud-hand-prototype.yml']
+permissions:
+  contents: read
+jobs:
+  executor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile and test executor
+        working-directory: projects/cloud-hand
+        run: |
+          python -m compileall -q server.py jobs.py test_jobs.py
+          python -m unittest -v test_jobs.py
+      - name: Check MCP dependency and fail-closed startup
+        working-directory: projects/cloud-hand
+        run: |
+          pip install -r requirements.txt
+          python -c "from mcp.server.fastmcp import FastMCP; from mcp.server.transport_security import TransportSecuritySettings; from playwright.async_api import async_playwright"
+          python -c "import os; os.environ['CLOUD_HAND_ROOT']='/tmp/cloud-hand-ci'; os.environ['CLOUD_HAND_TOKEN']='ci-only-placeholder-not-a-real-credential'; import server; assert server.inner is not None"
