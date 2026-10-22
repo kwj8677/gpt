@@ -18,7 +18,10 @@ ISSUES = [
     ("05", "05-fusion-commercialization-bottlenecks.ko.md", "1억 도 다음에 오는 것", "에너지·공학", "출처 기반 분석"),
     ("06", "06-hunminjeongeum-voice-notation.ko.md", "목소리를 위한 두 번째 악보", "언어·AI", "인터페이스 가설"),
     ("07", "07-structural-cutting.ko.md", "머리는 선이 아니라 무게로 움직인다", "헤어·디자인", "실무 기반 에세이"),
+    ("08", "08-civilization-mother-ai.ko.md", "인류의 지혜가 인류를 넘어설 때", "문명·AI", "철학적 미래 가설"),
 ]
+
+ISSUE_DATES = {'08': '2026.10.23'}
 
 CSS = r'''@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700&display=swap');
 
@@ -365,7 +368,7 @@ def shell(title: str, issue: str, category: str, evidence_type: str, body: str, 
 <link rel="stylesheet" href="style.css"></head><body>
 <header class="masthead"><a href="index.html">MAGAZINE COLUMN</a><span class="edition">Ongoing publication · 2026</span><a href="style-guide.html">TYPE / STYLE</a></header>
 <main class="page">
-<header class="article-header"><div class="kicker">COLUMN {issue}</div><h1 class="article-title">{html.escape(title)}</h1><p class="deck">{html.escape(deck)}</p><div class="article-meta"><span>{html.escape(evidence_type)}</span><span>2026.08.31</span><span>Facts · inference · hypothesis separated</span></div></header>
+<header class="article-header"><div class="kicker">COLUMN {issue}</div><h1 class="article-title">{html.escape(title)}</h1><p class="deck">{html.escape(deck)}</p><div class="article-meta"><span>{html.escape(evidence_type)}</span><span>{ISSUE_DATES.get(issue, "2026.08.31")}</span><span>Facts · inference · hypothesis separated</span></div></header>
 <div class="article-grid"><article class="article-body">{body}{''.join(nav)}</article>
 <aside class="margin-note"><span class="folio">{issue}</span><div><strong>읽는 법</strong>이 판본은 원 연구를 덮어쓰지 않는다. 사실, 해석, 실무 가설의 강도를 구분하고 반대가설과 반증 조건을 함께 둔다.</div></aside></div>
 </main><footer class="page site-footer"><span>Magazine Editions · Source-preserving editorial series</span><span><a href="https://github.com/kwj8677/gpt/tree/main/magazine">Source & notes ↗</a></span></footer></body></html>'''
@@ -379,7 +382,7 @@ def build_index(parsed: list[tuple]) -> str:
         # from the continuous feed so the opening is not duplicated.
         feed_body = re.sub(r"<p>.*?</p>", "", body, count=1, flags=re.S)
         articles.append(f'''<section class="feed-article" id="column-{no}">
-<header class="feed-header"><div class="kicker">COLUMN {no} · 2026.08.31</div><h2 class="feed-title">{html.escape(title)}</h2><p class="feed-deck">{html.escape(deck)}</p><div class="feed-meta"><span>{html.escape(typ)}</span><span>Facts · inference · hypothesis separated</span></div></header>
+<header class="feed-header"><div class="kicker">COLUMN {no} · {ISSUE_DATES.get(no, "2026.08.31")}</div><h2 class="feed-title">{html.escape(title)}</h2><p class="feed-deck">{html.escape(deck)}</p><div class="feed-meta"><span>{html.escape(typ)}</span><span>Facts · inference · hypothesis separated</span></div></header>
 <div class="feed-grid"><article class="article-body">{feed_body}<div class="feed-permalink"><a href="{page}">Permalink · 이 글만 보기 ↗</a></div></article><aside class="feed-note"><span class="folio">{no}</span><div>원 연구와 메모는 별도 보존한다. 이 지면에서는 근거의 강도, 반대가설, 반증 조건을 함께 편집한다.</div></aside></div>
 </section>''')
     return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Magazine Column</title><meta name="description" content="정기적으로 이어지는 한국어 독립 매거진 칼럼."><link rel="stylesheet" href="style.css"></head><body>
