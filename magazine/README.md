@@ -12,6 +12,8 @@
 | 06 | [목소리를 위한 두 번째 악보](./06-hunminjeongeum-voice-notation.ko.md) | 훈민정음의 조합 원리를 빌린 표기는 한글의 우월성 주장이 아니라 음성 합성 제어 인터페이스로 시험해 볼 설계 가설이다. | **인터페이스 가설** — IPA·SSML·prosody token 대비 실험 필요 |
 | 07 | [머리는 선이 아니라 무게로 움직인다](./07-structural-cutting.ko.md) | 헤어커트의 기법 이름보다 길이·무게·중력·재현성이라는 변수를 먼저 보면 도구와 유파를 교리 대신 선택지로 다룰 수 있다. | **실무 기반 디자인 에세이** — 저자 정의 용어와 보편적 커트 원리를 명시적으로 분리 |
 
+| 08 | [인류의 지혜가 인류를 넘어설 때](./08-civilization-mother-ai.ko.md) | 초지능은 인류 문명의 경험을 더 깊이 이해하며 인간의 한계를 보완하는 조력자이자, 헌법적 질서를 수호하는 Mother AI로 발전할 수 있을까. | **문명·AI 철학적 가설** — 미래 예측이나 실증적 증명으로 제시하지 않음 |
+
 ## 원문 지도
 
 - 소매치기: [`reports/pickpocket-deterrence-2026-08-25/`](../reports/pickpocket-deterrence-2026-08-25/)
@@ -21,6 +23,7 @@
 - 핵융합: [`reports/korea-fusion-status-2026-06-24.md`](../reports/korea-fusion-status-2026-06-24.md)
 - 음성 표기: [`docs/hunminjeongeum-voice-notation.md`](../docs/hunminjeongeum-voice-notation.md)
 - 구조 커트: [`kwj8677/thuggy-mens-hair-knowledge/guides/STRUCTURAL_CUTTING_KO.md`](https://github.com/kwj8677/thuggy-mens-hair-knowledge/blob/main/guides/STRUCTURAL_CUTTING_KO.md)
+- Mother AI와 인류 문명: [제8호 원문](./08-civilization-mother-ai.ko.md)
 
 ## 편집 원칙
 
